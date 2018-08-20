@@ -5,6 +5,12 @@ function takeANumber(katzDeliLine, personName) {
   return `Welcome, ${personName}. You are number ${katzDeliLine.length} in line.`
 }
 
+function takeANumber2(){
+
+}
+ => 1
+
+
 function nowServing(line) {
 if (line.length > 0) {
     return `Currently serving ${line.shift()}.`
